@@ -1,0 +1,6 @@
+Sub SaveActiveSheetsAsPDF()
+
+Dim sht As Worksheet
+ThisWorkbook.Worksheets("Sheet1").Cells.EntireColumn.AutoFit
+
+End Sub
